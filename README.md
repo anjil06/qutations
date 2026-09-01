@@ -53,8 +53,6 @@ Use the following credentials to test the application:
 **Email:** `test@gmail.com`  
 **Password:** `test@1234`
 
-> Replace `YOUR_TEST_PASSWORD` with the password of the test account before submitting the project. Do not publish a real personal account password in a public GitHub repository.
-
 ## Environment Variables
 
 A `.env.example` file should also be included:
@@ -71,7 +69,7 @@ Never commit the real `.env` file or Supabase service-role key to GitHub.
 Clone the repository and install dependencies:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/anjil06/qutations.git
 cd qutations
 npm install
 ```
@@ -83,16 +81,6 @@ npm run dev
 ```
 
 The application will run locally using the URL shown by Vite.
-
-## Supabase Setup
-
-1. Create a Supabase project.
-2. Enable Email/Password Authentication.
-3. Create the `quotations` table.
-4. Create the `quotation_items` table.
-5. Add the required relationship between quotations and quotation items.
-6. Configure Row Level Security so authenticated users can access their own quotations.
-7. Add the Supabase URL and anonymous key to `.env`.
 
 ## Quotation Calculation
 
