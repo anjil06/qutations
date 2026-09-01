@@ -50,25 +50,18 @@ Delete Quotation
 
 Use the following credentials to test the application:
 
-**Email:** `anjilreddy06@gmail.com`  
-**Password:** `YOUR_TEST_PASSWORD`
+**Email:** `test@gmail.com`  
+**Password:** `test@1234`
 
 > Replace `YOUR_TEST_PASSWORD` with the password of the test account before submitting the project. Do not publish a real personal account password in a public GitHub repository.
 
 ## Environment Variables
 
-Create a `.env` file in the project root:
-
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
 A `.env.example` file should also be included:
 
 ```env
-VITE_SUPABASE_URL=
-VITE_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_SUPABASE_URL=https://lrxdkmxeaenzmecyebti.supabase.co   
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_1ohWxukhrHuQJytOYt5qnw_l8WUJSqU
 ```
 
 Never commit the real `.env` file or Supabase service-role key to GitHub.
@@ -79,7 +72,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
-cd quotenest
+cd qutations
 npm install
 ```
 
